@@ -1,28 +1,28 @@
 .calculator-grid {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: repeat(5, 45px);
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(5, 45px);
 }
 
 .span-two {
-    grid-column: span 2;
+  grid-column: span 2;
 }
 
 .output {
-    grid-column: 1 / -1;
-    background-color: black;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-    flex-direction: column;
+  grid-column: 1 / -1;
+  background-color: black;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 .output .previous-operand {
-    color: white;
+  color: white;
 }
 
 .output .current-operand {
-    color: white
+  color: white
 }
